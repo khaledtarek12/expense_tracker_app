@@ -41,7 +41,7 @@ class ContainerSalaryWidget extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Column(
-              spacing: 5,
+              spacing: 8,
               children: [
                 Text(
                   'Total Balance',
