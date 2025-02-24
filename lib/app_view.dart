@@ -11,6 +11,7 @@ class AppView extends StatelessWidget {
       title: 'Expense Tracker',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
+        splashFactory: NoSplash.splashFactory,
         textTheme: GoogleFonts.poppinsTextTheme(),
         colorScheme: const ColorScheme.light(
           surface: Color(0xffF3F5F7),
