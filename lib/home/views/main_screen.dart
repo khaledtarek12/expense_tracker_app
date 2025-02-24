@@ -13,19 +13,16 @@ class MainScreen extends StatelessWidget {
       child: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 10.0),
         child: Column(
-          spacing: 30.0,
+          spacing: 20.0,
           children: [
             const WelcomeUserWidget(),
             const ContainerSalaryWidget(),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                Text(
+                const Text(
                   'Transactions',
-                  style: Theme.of(context).textTheme.headlineSmall!.copyWith(
-                    fontWeight: FontWeight.bold,
-                    fontSize: 20,
-                  ),
+                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 17),
                 ),
                 Text(
                   'View All',

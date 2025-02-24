@@ -22,8 +22,8 @@ class TransactionItemWidget extends StatelessWidget {
             Row(
               children: [
                 Container(
-                  width: 60,
-                  height: 60,
+                  width: 50,
+                  height: 50,
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
                     gradient: LinearGradient(
@@ -37,11 +37,7 @@ class TransactionItemWidget extends StatelessWidget {
                       ],
                     ),
                   ),
-                  child: Icon(
-                    transactionItem.icon,
-                    color: Colors.white,
-                    size: 31,
-                  ),
+                  child: Icon(transactionItem.icon, color: Colors.white),
                 ),
                 const SizedBox(width: 16.0),
                 Text(
