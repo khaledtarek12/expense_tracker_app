@@ -22,13 +22,14 @@ class MainScreen extends StatelessWidget {
               children: [
                 Text(
                   'Transactions',
-                  style: Theme.of(
-                    context,
-                  ).textTheme.titleLarge!.copyWith(fontWeight: FontWeight.bold),
+                  style: Theme.of(context).textTheme.headlineSmall!.copyWith(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 20,
+                  ),
                 ),
                 Text(
                   'View All',
-                  style: Theme.of(context).textTheme.bodyLarge!.copyWith(
+                  style: Theme.of(context).textTheme.bodyMedium!.copyWith(
                     fontWeight: FontWeight.w400,
                     color: Theme.of(context).colorScheme.outline,
                   ),

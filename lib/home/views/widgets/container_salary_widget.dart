@@ -83,7 +83,7 @@ class ContainerSalaryWidget extends StatelessWidget {
                           'Income',
                           style: TextStyle(
                             color: Colors.white,
-                            fontWeight: FontWeight.w600,
+                            fontWeight: FontWeight.w400,
                             fontSize: 14.0,
                           ),
                         ),
@@ -118,7 +118,7 @@ class ContainerSalaryWidget extends StatelessWidget {
                           'Expense',
                           style: TextStyle(
                             color: Colors.white,
-                            fontWeight: FontWeight.w600,
+                            fontWeight: FontWeight.w400,
                             fontSize: 14.0,
                           ),
                         ),
